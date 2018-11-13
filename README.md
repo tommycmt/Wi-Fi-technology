@@ -63,4 +63,17 @@
   - Next generation
   - 160 MHz: 1201 Mb/s (Single spatial stream)
   - Demo product up to 11 Gbit/s
+
+## Signal Strength
+  - in terms of mW
+  - RSSI (dBm)
+  - Noise floor (dBm)
+  - RSSI - Noise floor -> SNR (Signal to Noise Ratio)
   
+### RSSI (Received Signal Strength Indicator)
+  - Non-linear indication
+  ![equation of mW to dBm](https://shopdelta.eu/obrazki_art/dbm_img2_d.jpg "mW_to_dBm")
+  - The higher the RSSI, the stronger the signal received
+
+### SNR (Signal to Noise Ratio)
+  - The higher the SNR, the less interference in transmission
