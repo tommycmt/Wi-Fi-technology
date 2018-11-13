@@ -1,4 +1,4 @@
-# Wi-Fi-technology
+# Wi-Fi Technology
 
 ## WLAN Channel
 
@@ -75,4 +75,21 @@
   - The higher the RSSI, the stronger the signal received
 
 ### SNR (Signal to Noise Ratio)
-  - The higher the SNR, the less interference in transmission
+  - The higher the SNR, the more signal than noise
+
+## Wi-Fi authentication
+
+### WEP (Wired Equivalent Privacy)
+  - Shared key for all clients
+
+### WAP (Wi-Fi Protected Access)
+  - Same alogrithm with WEP but a longer key and tkip
+  - Personal mode, PSK
+  - Enterprise mode, EAP and 802.1x
+
+### WAP2 (Wi-Fi Protected Access II)
+  - Personal mode, PSK
+  - Enterprise mode, EAP and 802.1x
+
+![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
+
