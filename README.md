@@ -17,7 +17,6 @@
   - Much more channels and provide more choice on the bandwidth, 20, 40, 80, 160Mhz
   - The wider bandwidth, the faster data transmission rate
   ![5GHz channels](https://metis.fi/wordpress/wp-content/uploads/2018/01/5GHz.png "5GHz channels")
-  - 
   - Providing a faster transmission rate
   - But relative shorter distance and weaker penetration on obstacle
 
