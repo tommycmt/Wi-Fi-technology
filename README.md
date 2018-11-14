@@ -55,7 +55,6 @@
   - IEEE: 8x8 MIMO
   - 160 Mhz: 6.9 Gb/s
 
- 
 ### 802.11ax
   - aka Wi-FI 6
   - 2.4 and 5 GHz, incorporate 1 - 7 GHz
@@ -80,14 +79,27 @@
 ## Wi-Fi authentication
 
 ### WEP (Wired Equivalent Privacy)
-  - Shared key for all clients
-
+  - PSK (Pre Shared key) for all clients
+  - 40 bit -> 104-bit key (US gov restrictions)
+  - Combined with a 24-bit initialization vector
+  - Easy to crack
+  
 ### WAP (Wi-Fi Protected Access)
-  - Same alogrithm with WEP but a longer key and tkip
+  - Interim standard
+  - Same alogrithm to WEP but using TKIP (Temporal Key Integrity Protocol)
+  - 256 bits keys, per-packet key mixing, unique key for each packet
+  - automatic broadcast of updated keys
+  - message integrity check
+  - Larger IV size (48 bits)
   - Personal mode, PSK
-  - Enterprise mode, EAP and 802.1x
+  - Enterprise mode, EAP (Extensible Authentication Protocol) and 802.1x
+  - Enterprise mode required an authenticatioin server
 
 ### WAP2 (Wi-Fi Protected Access II)
+  - AES (Advanced Encryption Standard) and Counter Mode with (Cipher Block Chaining Message Authentication Code Protocol)
+  - Support TKIP as a fallback
+  - Seamless roaming, allowing client to move between AP on same network without having reauthtication
+  - Use of Pairwise Master Key caching or preauthentication
   - Personal mode, PSK
   - Enterprise mode, EAP and 802.1x
 
