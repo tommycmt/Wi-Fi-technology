@@ -1,4 +1,46 @@
 # Wi-Fi Technology
+--------------------------------
+## Table of Content  
+  1. [Learning Progress](#learning-progress)
+  2. [WLAN Channel](#wlan-channel)
+  3. [IEEE standard](#ieee-standard)
+  4. [Signal Strength](#signal-strength)
+  5. [Wi-Fi authentication](#wi-fi-authentication)
+  
+-------------------------------
+## Learning Progress
+
+### Day 0
+  - [x] General study on all topic
+  
+### Day 1
+  - [x] WLAN Channel
+  - [x] 802.11 IEEE standard
+  - [x] Signal Strength
+  
+### Day 2
+  - [x] Wi-Fi authentication
+  - [ ] Majoc Wi-FI solution vendor
+  - [ ] Thin AP VS Fat AP solution
+  
+### Day 3
+  - [ ] DNS / DHCP / Gateway / Speed Test
+  - [ ] PoE – Power Over Ethernet
+  - [ ] WiFi interference
+
+### Day 4
+  - [ ] Basic Linux command (SSH / cd / pwd / chmod / vi / ifconfig … )
+  
+### Day 5
+  - [ ] Basic Linux command (Continue)
+  - [ ] Cron job
+  - [ ] Shell Script
+
+### Day 6
+  - [ ] Sheel Script (Continue)
+  
+--------------------------------
+# Content
 
 ## WLAN Channel
 
@@ -20,7 +62,7 @@
   - Providing a faster transmission rate
   - But relative shorter distance and weaker penetration on obstacle
 
-## 802.11
+## IEEE standard
 
 ### 802.11a
   - 5 GHz, 20 MHz
