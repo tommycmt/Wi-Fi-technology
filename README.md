@@ -6,7 +6,8 @@
   3. [IEEE standard](#ieee-standard)
   4. [Signal Strength](#signal-strength)
   5. [Wi-Fi authentication](#wi-fi-authentication)
-  6. [Majoc Wi-FI solution vendor](#majoc-wi-fI-solution-vendor)
+  6. [Major Wi-FI solution vendor](#major-wi-fi-solution-vendor)
+  7. [Thin AP VS Fat AP](#thin-ap-vs-fat-ap)
   
 -------------------------------
 ## Learning Progress
@@ -21,8 +22,8 @@
   
 ### Day 2
   - [x] Wi-Fi authentication
-  - [ ] Majoc Wi-FI solution vendor
-  - [ ] Thin AP VS Fat AP solution
+  - [x] Major Wi-FI solution vendor
+  - [x] Thin AP VS Fat AP
   
 ### Day 3
   - [ ] DNS / DHCP / Gateway / Speed Test
@@ -149,16 +150,48 @@
   - Personal mode, PSK
   - Enterprise mode, EAP with 802.1x
 
-  ![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
+![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
 
 ### 802.1x
   - Authenticator and Authentication Server
   - Only allow client to connect the network after authenticate by Authenticator
 ------------------------------------
-## Majoc Wi-FI solution vendor
+## Major Wi-FI solution vendor
 
 ### Aruba
-
+  - AirWave for management
+  - Better on managing multiple different security profiles across different location, Clearpass
+  - Has decent switches which can use to control different AP
+  - More focus on the security issue
+  - Mor enterprise support capailities
+  
 ### Ruckus 
-
+  - Unleashed & Unleashed Multi-Site Manager (UMM)
+  - Easy to configure and monitor
+  - Cheaper than Aruba
+  - Only focus on wireless 
+  - Focus on the user interface, the ease to control their product
+  - ZoneDirectors do not have integrated RADIUS servers
+  
 ### Cisco
+  - Complicated to configure than Ruckus
+  - More to cover an area
+  - Better migrate with the wired components
+
+-----------------------------
+## Thin AP vs Fat AP
+
+### Thin AP
+  - Transmission only
+  - Controlled by switch, centralized control
+  - Bottleneck on controller
+  - Do not even perform WLAN encryption
+  - Keeps APS simple and avoiding the necessity to upgrade their hard or software
+  
+### Fat AP
+  - Each AP is an addressable node in the network with its own IP address on its interfaces
+  - Can operate without any controller device
+  - SNMP (Simple Network Management Protocol) or HTTP to manage APs
+  - Complex and costly
+  
+------------------------------
