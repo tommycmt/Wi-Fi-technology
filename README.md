@@ -138,7 +138,7 @@
   - message integrity check
   - Larger IV size (48 bits)
   - Personal mode, PSK
-  - Enterprise mode, EAP (Extensible Authentication Protocol) and 802.1x
+  - Enterprise mode, EAP (Extensible Authentication Protocol) with 802.1x
   - Enterprise mode required an authenticatioin server
 
 ### WAP2 (Wi-Fi Protected Access II)
@@ -147,10 +147,13 @@
   - Seamless roaming, allowing client to move between AP on same network without having reauthtication
   - Use of Pairwise Master Key caching or preauthentication
   - Personal mode, PSK
-  - Enterprise mode, EAP and 802.1x
+  - Enterprise mode, EAP with 802.1x
 
   ![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
-  
+
+### 802.1x
+  - Authenticator and Authentication Server
+  - Only allow client to connect the network after authenticate by Authenticator
 ------------------------------------
 ## Majoc Wi-FI solution vendor
 
