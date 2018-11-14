@@ -38,7 +38,7 @@
   - [ ] Shell Script
 
 ### Day 6
-  - [ ] Sheel Script (Continue)
+  - [ ] Shell Script (Continue)
   
 --------------------------------
 # Content
