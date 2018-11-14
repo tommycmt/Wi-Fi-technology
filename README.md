@@ -6,6 +6,7 @@
   3. [IEEE standard](#ieee-standard)
   4. [Signal Strength](#signal-strength)
   5. [Wi-Fi authentication](#wi-fi-authentication)
+  6. [Majoc Wi-FI solution vendor](#majoc-wi-fI-solution-vendor)
   
 -------------------------------
 ## Learning Progress
@@ -15,7 +16,7 @@
   
 ### Day 1
   - [x] WLAN Channel
-  - [x] 802.11 IEEE standard
+  - [x] IEEE standard
   - [x] Signal Strength
   
 ### Day 2
@@ -61,7 +62,8 @@
   ![5GHz channels](https://metis.fi/wordpress/wp-content/uploads/2018/01/5GHz.png "5GHz channels")
   - Providing a faster transmission rate
   - But relative shorter distance and weaker penetration on obstacle
-
+  
+------------------------------------
 ## IEEE standard
 
 ### 802.11a
@@ -103,7 +105,8 @@
   - Next generation
   - 160 MHz: 1201 Mb/s (Single spatial stream)
   - Demo product up to 11 Gbit/s
-
+  
+------------------------------------
 ## Signal Strength
   - in terms of mW
   - RSSI (dBm)
@@ -117,7 +120,8 @@
 
 ### SNR (Signal to Noise Ratio)
   - The higher the SNR, the more signal than noise
-
+  
+------------------------------------
 ## Wi-Fi authentication
 
 ### WEP (Wired Equivalent Privacy)
@@ -145,5 +149,13 @@
   - Personal mode, PSK
   - Enterprise mode, EAP and 802.1x
 
-![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
+  ![Wi-Fi_auth_method](https://cdn.ttgtmedia.com/rms/onlineImages/wirelesssec_chart.PNG "Wi-Fi_auth_method")
+  
+------------------------------------
+## Majoc Wi-FI solution vendor
 
+### Aruba
+
+### Ruckus 
+
+### Cisco
