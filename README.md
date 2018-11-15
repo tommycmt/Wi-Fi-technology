@@ -8,6 +8,7 @@
   5. [Wi-Fi authentication](#wi-fi-authentication)
   6. [Major Wi-FI solution vendor](#major-wi-fi-solution-vendor)
   7. [Thin AP VS Fat AP](#thin-ap-vs-fat-ap)
+  8. [DNS, DHCP, Gateway and Speed Test](#dns-dhcp-gateway-speed-test)
   
 -------------------------------
 ## Learning Progress
@@ -26,7 +27,7 @@
   - [x] Thin AP VS Fat AP
   
 ### Day 3
-  - [ ] DNS / DHCP / Gateway / Speed Test
+  - [x] DNS / DHCP / Gateway / Speed Test
   - [ ] PoE – Power Over Ethernet
   - [ ] WiFi interference
 
@@ -187,11 +188,39 @@
   - Bottleneck on controller
   - Do not even perform WLAN encryption
   - Keeps APS simple and avoiding the necessity to upgrade their hard or software
-  
+
 ### Fat AP
   - Each AP is an addressable node in the network with its own IP address on its interfaces
   - Can operate without any controller device
   - SNMP (Simple Network Management Protocol) or HTTP to manage APs
   - Complex and costly
-  
+
 ------------------------------
+## DNS, DHCP, Gateway, Speed Test
+
+### DNS (Domain Name System)
+  - Hierarchical decentralized nameing system
+  - Translate between ip address and domain name
+  - FQDN (Fully Qualified Domain Name)
+  ![DNS resolver](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/563px-Example_of_an_iterative_DNS_resolver.svg.png "DNS resolver")
+
+### DHCP (Dynamic Host Configuration Protocol)
+  - UDP/IP
+  - 1. Client send a broadcast DHCPDISCOVER message
+  - 2. DHCP Server send a broadcast DHCPOFFER message
+  - 3. Client send a unicast DHCPREQUEST message to DHCP
+  - 4. DHCP Server send a unicast DHCPACK message to Client
+
+### Gateway
+  - Connecting two deivce
+  - Similar to proxy
+  - May communicate with different protocol
+  - IP Gateway in router -> transmitting data in different network
+  
+### Speed Test
+  - Throught sending some packets and measure the response time and loss
+  - Check the current network performance
+  
+
+
+  
