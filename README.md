@@ -28,7 +28,7 @@
   
 ### Day 3
   - [x] DNS / DHCP / Gateway / Speed Test
-  - [ ] PoE – Power Over Ethernet
+  - [x] PoE – Power Over Ethernet
   - [ ] WiFi interference
 
 ### Day 4
@@ -220,7 +220,6 @@
 ### Speed Test
   - Throught sending some packets and measure the response time and loss
   - Check the current network performance
-  
 
 
   
