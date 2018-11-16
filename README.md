@@ -32,17 +32,6 @@
   - [x] DNS / DHCP / Gateway / Speed Test
   - [x] PoE – Power Over Ethernet
   - [x] WiFi interference
-
-### Day 4
-  - [ ] Basic Linux command (SSH / cd / pwd / chmod / vi / ifconfig … )
-  
-### Day 5
-  - [ ] Basic Linux command (Continue)
-  - [ ] Cron job
-  - [ ] Shell Script
-
-### Day 6
-  - [ ] Shell Script (Continue)
   
 --------------------------------
 # Content
