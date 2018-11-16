@@ -9,6 +9,8 @@
   6. [Major Wi-FI solution vendor](#major-wi-fi-solution-vendor)
   7. [Thin AP VS Fat AP](#thin-ap-vs-fat-ap)
   8. [DNS, DHCP, Gateway and Speed Test](#dns-dhcp-gateway-speed-test)
+  9. [Power over Ethernet](#power-over-ethernet)
+  10. [Wi-Fi interference](#wi-fi-interference)
   
 -------------------------------
 ## Learning Progress
@@ -29,7 +31,7 @@
 ### Day 3
   - [x] DNS / DHCP / Gateway / Speed Test
   - [x] PoE – Power Over Ethernet
-  - [ ] WiFi interference
+  - [x] WiFi interference
 
 ### Day 4
   - [ ] Basic Linux command (SSH / cd / pwd / chmod / vi / ifconfig … )
@@ -221,5 +223,34 @@
   - Throught sending some packets and measure the response time and loss
   - Check the current network performance
 
-
+------------------------------
+## Power Over Ethernet
+  - Pass electric power along with data on twisted pair Ethernet cabling
+  - Single cable to provide data and electricity to devices such as AP, IP cameras, VoIP phones
   
+------------------------------
+## Wi-Fi interference
+
+### Channel
+  - The radio signal should transmit in different channels
+  - Reserved some gaps
+  - Some other devices are using 2.4 GHz, e.g. bluetooth
+
+### Materials 
+  - Materials can affect Wi-Fi performance
+  - Avoid barriers
+  
+| Type of Barrier     | Interference Potential |
+| ------------------- | ---------------------- |
+| Wood                | Low                    |
+| Synthetic material  | Low                    |
+| Glass               | Low                    |
+| Water               | Medium                 |
+| Bricks              | Medium                 |
+| Marble              | Medium                 |
+| Plaster             | High                   |
+| Concrete            | High                   |
+| Bulletproof glass	  | High                   |
+| Metal           	  | Very High              |
+
+--------------------------------------------------------------
